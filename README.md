@@ -4,11 +4,14 @@ On Linux, it is hard to find how much memory (RAM) in human readble format (kilo
 Currently it shows the memory usage in only kilobytes and in descending order in a tabular format. The shell script don't accept any flags or option. But this is just the beginning. It is possible to add more features and flags to configure the output of `sysmon`. I will look into that in future if you guys find it useful.
 
 
-
 # Usage
+On the fly, without install:
+
+`$ curl -s https://raw.githubusercontent.com/alfonzso/sysmon/master/sysmon | sudo bash - `
+
 Clone the GitHub repository:
 
-`$ git clone https://github.com/shovon8/sysmon.git`
+`$ git clone https://github.com/alfonzso/sysmon.git`
 
 Move the shell script to any directory in the PATH. I prefer the `/usr/bin` directory.
 
@@ -17,11 +20,3 @@ Move the shell script to any directory in the PATH. I prefer the `/usr/bin` dire
 Now run `sysmon` as follows:
 
 `$ sudo sysmon`
-
-That's it.
-
-
-
-
-
-## Thanks for using `sysmon`.
